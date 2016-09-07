@@ -1,0 +1,399 @@
+/*===============================================
+DataTables
+================================================= */
+/* Datatable Header */
+table.dataTable thead th {
+  border-bottom: 1px solid #DDD;
+  font-weight: 600; }
+
+/* Datatable Sorted Rows */
+table.dataTable tr.odd td.sorting_1 {
+  background-color: white; }
+
+table.dataTable tr.even td.sorting_1 {
+  background-color: #f8f8f8; }
+
+/* Datatable Filters Menu Container */
+.dt-panelmenu {
+  min-height: 45px;
+  margin: -10px -10px 10px; }
+.tab-block .dt-panelmenu {
+  min-height: 45px;
+  margin: -15px -12px 10px; }
+
+/* DataTables Search Bar Filter */
+div.dataTables_filter input {
+  width: 270px;
+  line-height: 1.428571429;
+  padding: 3px 8px;
+  color: #999;
+  outline: none;
+  background: #FFF;
+  max-height: 30px;
+  height: 29px;
+  border: 1px solid #ddd; }
+
+div.dataTables_filter input[placeholder] {
+  font-weight: 400; }
+
+/* DataTables Dropdown Filter */
+.dataTables_length {
+  display: none; }
+
+@media (min-width: 768px) {
+  .dataTables_length {
+    display: block; } }
+.dataTables_length .chosen-container {
+  margin: 0 5px; }
+
+div.dataTables_length label {
+  color: #999;
+  font-weight: 600; }
+
+.dataTables_length .chosen-container-single .chosen-single {
+  height: 30px;
+  line-height: 28px;
+  color: #888;
+  background: #FFF; }
+
+/* DataTables Dropdown Filter Arrow Icon */
+.dataTables_length .chosen-container-single .chosen-single div {
+  top: 3px; }
+
+/* Datatable Result Counter */
+div.dataTables_info {
+  padding-top: 10px;
+  color: #999; }
+
+/* Datatable Footer */
+.datatables-footer {
+  margin-top: 10px; }
+
+/* Datatable Pagination */
+.datatables-footer .pagination {
+  margin: 0; }
+
+.datatables-footer .pagination {
+  padding-top: 2px; }
+
+table.dataTable > thead > tr > th, table.dataTable > tbody > tr > th, table.dataTable > tfoot > tr > th, table.dataTable > thead > tr > td, table.dataTable > tbody > tr > td, table.dataTable > tfoot > tr > td {
+  vertical-align: middle; }
+
+/* DATATABLES PLUGIN STYLES - TABLETOOLS */
+/* TableTools Container */
+div.DTTT_container {
+  position: absolute;
+  float: none;
+  right: 0;
+  top: -30px; }
+
+/* TableTools Buttons */
+div.DTTT_container .DTTT_button {
+  font-size: 1em;
+  color: #AAA !important;
+  padding: 2px 8px;
+  margin-right: 10px;
+  border-radius: 2px;
+  border: 1px solid #DDD;
+  box-shadow: none; }
+
+div.DTTT_container .DTTT_button:last-child {
+  margin-right: 0px; }
+
+div.DTTT_container .DTTT_button:hover {
+  color: #333;
+  border-color: #AAA;
+  box-shadow: none; }
+
+/*
+ * PRINTING
+ * Print display styles
+ */
+.DTTT_print_info {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  width: 400px;
+  height: 150px;
+  margin-left: -200px;
+  margin-top: -75px;
+  text-align: center;
+  color: #333;
+  padding: 10px 30px;
+  background: #ffffff;
+  /* Old browsers */
+  background: -webkit-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, white 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(top, #ffffff 0%, #f3f3f3 89%, #f9f9f9 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f9f9f9',GradientType=0 );
+  /* IE6-9 */
+  opacity: 0.95;
+  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5); }
+
+.DTTT_print_info h6 {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 28px;
+  margin: 1em; }
+
+.DTTT_print_info p {
+  font-size: 14px;
+  line-height: 20px; }
+.panel-menu {
+  padding: 5px 13px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #DDD; 
+ }
+.dataTables_length {
+    display: inline-block;
+}
+.dataTables_filter{
+	float:right;
+}
+div.dataTables_paginate {
+    float: right;
+    margin: 0;
+	height:30px;
+}
+div.dataTables_info{
+	display:inline-block;
+	padding-top:5px;
+}
+.pagination{margin:0px;}
+.panel-body{padding:10px;}
+.table{margin-bottom:10px;}
+.pagination > .active > a{background-color: #0a3151; border-color: #0a3151;}
+table.table thead .sorting {
+    background: url("../images/sort_both.png") no-repeat center right;
+}
+table.table thead .sorting_asc {
+    background: url("../images/sort_asc.png") no-repeat center right;
+}
+table.table thead .sorting_desc {
+    background: url("../images/sort_desc.png") no-repeat center right;
+}
+/*===============================================
+  N. Tabs
+================================================= */
+/* TAB CONTAINER */
+.tab-block {
+  position: relative; }
+
+.tab-block .tab-content {
+  overflow: auto;
+  background-color: #FFF; }
+
+/* TAB CONTENT PANEL */
+.tab-content {
+  position: relative;
+  z-index: 10;
+  min-height: 125px;
+  padding: 16px 12px;
+  border: 1px solid #CCC; }
+
+/* TAB NAVIGATION */
+.nav-tabs {
+  position: relative;
+  border: 0; }
+
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px; }
+
+.nav-tabs > li > a {
+  position: relative;
+  z-index: 9;
+  padding: 9px 16px;
+  margin-right: -1px;
+  font-weight: 700;
+  color: #777;
+  font-size: 12px;
+  border-color: #CFCFCF;
+  border-radius: 0;
+  background: #fafafa; }
+
+.nav-tabs > li:first-child > a {
+  margin-left: 0; }
+
+/* TAB NAVIGATION STATES */
+.nav-tabs > li > a:hover {
+  color: #555;
+  border-color: #CFCFCF; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  cursor: default;
+  position: relative;
+  z-index: 12;
+  color: #555555;
+  background: #FFF;
+  border-color: #CFCFCF;
+  border-bottom: 1px solid #FFF; }
+
+/* open state for dropdown menus in nav 
+ * containers. Also a direct bootstrap override */
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  color: #428bca;
+  border-color: #CFCFCF; }
+
+/* TAB NAVIGATION - ALT STYLE: BORDER */
+.tabs-border.nav-tabs > li.active > a, .tabs-border-bottom .nav-tabs > li.active > a {
+  margin-top: -1px;
+  border-top: 2px solid #C04446; }
+
+/* TAB NAVIGATION - ALT STYLE: BORDER - BOTTOM */
+.tabs-border-bottom.nav-tabs > li > a, .tabs-border-bottom .nav-tabs > li > a {
+  color: #BBB;
+  font-weight: 600;
+  background: #f9f9f9; }
+
+.tabs-border-bottom.nav-tabs > li.active > a, .tabs-border-bottom .nav-tabs > li.active > a {
+  color: #555;
+  font-weight: 600;
+  margin-bottom: -1px;
+  background: #f7f7f7;
+  border-color: #DDD;
+  border-bottom: 2px solid #C04446; }
+
+/* TAB NAVIGATION - ALT STYLE: BACKGROUND */
+.tabs-bg.nav {
+  background: #f5f5f5;
+  border: 1px solid #CCC;
+  border-bottom: none;
+  padding: 10px 10px 0; }
+
+/* TABS - Float Right */
+.nav-tabs.tabs-right > li {
+  float: right; }
+
+.nav-tabs.tabs-right > li:first-child > a {
+  margin-right: 0; }
+
+/* TABS - NAVIGATION BELOW */
+.tabs-below {
+  position: relative; }
+
+.tabs-below > li {
+  float: left;
+  margin-top: -1px; }
+
+.tabs-below > li > a {
+  position: relative;
+  z-index: 9;
+  margin-right: -1px;
+  padding: 11px 16px;
+  font-size: 12px;
+  color: #777;
+  font-weight: 700;
+  border: 1px solid #CFCFCF;
+  background: #fafafa; }
+
+/* TAB NAVIGATION STATES */
+.tabs-below > li.active > a, .tabs-below > li.active > a:hover, .tabs-below > li.active > a:focus {
+  cursor: default;
+  position: relative;
+  z-index: 12;
+  color: #555555;
+  background: #FFF;
+  border-color: #CFCFCF;
+  border-top: 1px solid #FFF; }
+
+/* TAB NAVIGATION - ALT STYLE: BORDER */
+.tabs-border.tabs-below > li.active > a, .tabs-border .tabs-below > li.active > a {
+  margin-bottom: -1px;
+  border-bottom: 2px solid #c7b7e5; }
+
+/* TAB NAVIGATION - ALT STYLE: BACKGROUND */
+.tabs-bg.tabs-below {
+  background: #f5f5f5;
+  border: 1px solid #CCC;
+  border-top: none;
+  padding: 0 10px 6px; }
+
+/* TABS - NAVIGATION LEFT */
+.tabs-left {
+  float: left; }
+
+.tabs-left > li {
+  float: none;
+  margin: 0 -1px -1px 0; }
+
+.tabs-left > li > a {
+  padding: 12px 16px;
+  color: #777;
+  font-size: 12px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  border-color: #CFCFCF;
+  background: #fafafa; }
+
+/* TAB NAVIGATION STATES */
+.tabs-left > li.active > a, .tabs-left > li.active > a:hover, .tabs-left > li.active > a:focus {
+  color: #555;
+  border-color: #CCC #FFF #CCC #CCC;
+  cursor: default;
+  position: relative;
+  z-index: 12;
+  background: #FFF; }
+
+/* TAB NAVIGATION - ALT STYLE: BORDER */
+.tabs-border.tabs-left > li.active > a, .tabs-border .tabs-left > li.active > a {
+  margin-left: -1px;
+  border-left: 2px solid #c7b7e5; }
+
+/* WELL TABS - GREY MICRO NAV TABS */
+.well-tabs {
+  position: relative; }
+
+.well-tabs li {
+  float: left;
+  margin: 4px 6px; }
+
+.well-tabs li:first-child {
+  margin-left: 0; }
+
+.well-tabs li a {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 8px;
+  line-height: 15px;
+  border-radius: 4px;
+  color: #8457bb;
+  border: 1px solid #beaff9;
+  background-color: #dfd9f7; }
+
+.well-tabs li a:hover, .well-tabs li.active a {
+  background-color: #fff; }
+
+/* Same style but inversed colors */
+.well-tabs-inverse li a {
+  font-size: 11px;
+  font-weight: 600;
+  color: #888;
+  padding: 6px 8px;
+  line-height: 15px;
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid #ddd; }
+
+.well-tabs-inverse li a:hover, .well-tabs-inverse li.active a {
+  color: #6b3fa2;
+  border-color: #cbc0f8;
+  background-color: #e3def8; }

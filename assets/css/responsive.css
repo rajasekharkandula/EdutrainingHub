@@ -1,0 +1,14 @@
+@media only screen and (max-width: 995px) {
+	.header .nav > li > a {
+		font-size: 11px;
+		padding: 25px 7px;
+	}
+	#bs-navbar { width: 82%; float: right; }
+	.navbar-brand { width: 18%; }
+	.container { width: 100%; }
+}
+@media only screen and (max-width: 768px) {
+    #bs-navbar { display: none !important; }
+    .nav-taggle { display: block; }
+    .navbar-brand { width: inherit; }
+}
